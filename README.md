@@ -1,2 +1,2 @@
-# HtmlDio1
-Primeira atividade do Curso de HTML da Dio
+# HtmlDio
+Atividades de HTML do curso "Formação HTML Web Developer" da Dio.
