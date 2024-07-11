@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html" style="font-size: 14px; color: black;">Página Inicial</a></li><br>
+                <li><a href="about.html" style="font-size: 14px; color: black;">Sobre Nós</a></li><br>
+                <li><a href="agenda.html" style="font-size: 14px; color: black;">Agendamentos</a></li><br>
+            </ul>
+            
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="contato.png" alt="imagem de contato" width="100">
+                <h1>Entre em contato com a gente</h1>
+                <!-- Aqui vai o seu header -->
+            </div>
+            <div class="content" style="display: flex; width: 100%;">
+                <div class="conteudo" style="width: 50%;">
+                    <p style="font-size: 18px;"><b>Como gostaria de falar conosco?</b></p>
+                    <p style="font-size: 12px;"><i>Estamos sempre à sua disposição!<br>Entre em contato e tire todas as suas dúvidas agora mesmo!</i></p>
+                    <p style="font-size: 18px;"><b>Horário de Atendimento</b></p>
+                    <p style="font-size: 12px;">De domingo à domingo<br>Até as 22h</p>
+                    <p style="font-size: 18px;"><b>Fale Conosco</b></p>
+                    <p style="font-size: 12px;">Tel: (11) 99999-9999<br>Whatsapp: (11) 99999-9999<br>veterinaria@gmail.com</p><hr>
+                    <p style="font-size: 18px;"><b>Quer nos encontrar?</b></p>
+                    <p style="font-size: 12px;">Nosso endereço: <i>Osasco. Rua Nelson Camargo, Centro, 789<br>CEP: 06010-070</i></p>
+                    <p></p>
+                </div>
+                <div class="formulario" style="width: 50%;">
+                    <form name="contact" onsubmit="alert('Formulário Enviado!')" method="get">
+                        <small><label for="name">Nome*:</label> <input type="text" name="name" placeholder="digite seu nome aqui" style="border: none; border-bottom: 1px solid black; background-color: transparent;"></small><br><br>
+                        <small><label for="e-mail">E-mail*:</label> <input type="text" name="e-mail" autocomplete="off" width="50px" placeholder="digite seu email aqui" style="border: none; border-bottom: 1px solid black; background-color: transparent;"></small><br><br>
+                        <small><label for="number">Telefone*: </label> <input type="number" name="number" autocomplete="off" width="50px" placeholder="digite seu número aqui" style="border: none; border-bottom: 1px solid black; background-color: transparent;"></small><br><br>
+                        <small><label for="assunto">Assunto*:</label> <input type="text" name="assunto" autocomplete="off" width="50px" placeholder="digite o assunto aqui" style="border: none; border-bottom: 1px solid black; background-color: transparent;"></small><br><br>
+                        <small><label for="mensagem">Mensagem*: </label> <input type="text" name="mensagem" autocomplete="off" width="50px" placeholder="digite sua mensagem aqui" style="border: none; border-bottom: 1px solid black; background-color: transparent;"></small><br><br>
+                        <button type="submit" name="enviar">Enviar</button>
+                        <button type="reset" name="reset">Limpar</button><br><br><br><br><hr>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.919288032922!2d-46.77472727532551!3d-23.535405206138655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff13ba8b5485%3A0xc82b3e0f824c0d!2sR%20Nelson%20Camargo%20-%20Centro%2C%20Osasco%20-%20SP%2C%2006020-012!5e0!3m2!1spt-BR!2sbr!4v1720720900719!5m2!1spt-BR!2sbr" width="270" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </form>
+                </div>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <table width="700px" align="center" cellspacing="12px">
+                    <tr>
+                        <td style="color: green; font-size: 12px;">MENU</td>
+                        <td style="color: green; font-size: 12px;">SERVIÇOS</td>
+                        <td style="color: green; font-size: 12px;">ATENDIMENTO</td>
+                        <td style="color: green; font-size: 12px;">FALE CONOSCO</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 10px;"><a href="about.html" style="color: white; text-decoration: none;">Sobre</a></td>
+                        <td style="color: white; font-size: 10px;"><a href="agenda.html" style="color: white; text-decoration: none;">Vacinas</a></td>
+                        <td style="color: white; font-size: 10px;">De Domingo à Domingo</td>
+                        <td style="color: white; font-size: 10px;">Tel: (11)99999-9999</td>
+                    </tr>
+                    <tr>
+                        <td style="color: white; font-size: 10px;"><a href="agenda.html" style="color: white; text-decoration: none;">Serviços</a></td>
+                        <td style="color: white; font-size: 10px;"><a href="agenda.html" style="color: white; text-decoration: none;">Consultas</a></td>
+                        <td style="color: white; font-size: 9px;">Até as 22:00</td>
+                        <td style="color: white; font-size: 10px;">Whatsapp: (11)99999-9999</td>
+                    </tr>
+                    <tr>
+                        <td style="color: white; font-size: 10px;"><a href="contact.html" style="color: white; text-decoration: none;">Dúvidas</a></td>
+                        <td style="color: white; font-size: 10px;"><a href="agenda.html" style="color: white; text-decoration: none;">Cirurgias</a></td>
+                        <td style="color: white; font-size: 10px;"></td>
+                        <td style="color: white; font-size: 10px;">veterinaria@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td style="color: white; font-size: 10px;"><a href="contact.html" style="color: white; text-decoration: none;">Contato</a></td>
+                        <td style="color: white; font-size: 10px;"><a href="agenda.html" style="color: white; text-decoration: none;">Internações</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
