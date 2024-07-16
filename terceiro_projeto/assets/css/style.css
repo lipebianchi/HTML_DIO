@@ -1,0 +1,216 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-block: 100px;
+}
+ul {
+     list-style: none; padding-left: 5px; 
+    }
+
+a {
+     color:blue; text-decoration: none;
+    }
+
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer {
+    border-top: solid 1px #cdcdcd;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+figure {
+    text-align: center;
+}
+
+main section h1 {
+    font-size: 4em;           
+    color: #192531;             
+    text-align: center;         
+    margin: 20px 0;            
+    font-family: 'Arial', sans-serif; 
+    text-transform: uppercase;  
+    letter-spacing: 2px;        
+    border-bottom: 2px solid #2980b9; 
+}
+
+main section p {
+    font-size: 20px;
+    text-align: left;           
+    color: #000000;                 
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;           
+    padding: 10px;
+}
+
+main section h2 {
+    font-size: 3em;
+    color: #1b2631;              
+    text-align: left;            
+    font-family: 'Arial', sans-serif; 
+    border-bottom: 1px solid #2980b9; 
+    padding-bottom: 5px;          
+}
+
+main section h3 {
+    font-size: 2em;            
+    color: #4b4b4b;              
+    text-align: left;
+    font-family: 'Arial', sans-serif; /* Fonte */
+}
+
+main section p a {
+    color: #920808;
+    font-style: italic;            
+    text-decoration: none;       
+    font-weight: bold;         
+    transition: color 0.3s;
+}
+
+main section p a:hover {
+    color: #ff0000;             
+    text-decoration: underline;
+}
+
+main nav ul li a {
+    font-size: 20px;
+    color: #920808;
+    font-style: italic;            
+    text-decoration: none;       
+    font-weight: bold;         
+    transition: color 0.3s;
+    text-align: left;
+}
+
+main nav ul li a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 12px;
+}
+
+footer nav ul li a:hover {
+    color: #2980b9;
+}
+
+main section figure figcaption {
+    font-size: 20px;
+    font-style: italic;
+    color: #2b445f;
+}
+
+main nav h2 {
+    font-size: 30px;
+    color: #666666;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+main section div div {
+    border: 2px solid #42505a;
+    border-radius: 10px;
+    margin: 3px;
+    background-color: #f1e9e9;
+    padding: 20px;
+    margin: 15px;
+}
+
+main section div div h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+main section div div p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.bar a {
+    font-size: 20px;
+    color: #000000;
+    font-style: italic;            
+    text-decoration: none;       
+    font-weight: bold;         
+    transition: color 0.3s;
+    margin: 190px;
+}
+
+.bar a:hover {
+    color: #1485c7;
+    text-decoration: underline;
+}
+
+main section div div a {
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+}
+
+main section a{
+    font-size: 20px;
+    color: #000000;
+    font-style: italic;            
+    text-decoration: none;       
+    font-weight: bold;         
+    transition: color 0.3s;
+    text-align: center;
+}
+
+main section a:hover{
+    color: #1485c7;
+    text-decoration: underline;
+}
